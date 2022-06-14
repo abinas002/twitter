@@ -1,4 +1,4 @@
-import { ChartBarIcon, ChatIcon, DotsCircleHorizontalIcon, HeartIcon, ShareIcon, TrashIcon } from "@heroicons/react/outline";
+import { ChartBarIcon, ChatIcon, DotsHorizontalIcon, HeartIcon, ShareIcon, TrashIcon } from "@heroicons/react/outline";
 
 export default function Post({ post}) {
   return <div className="flex p-3 cursor-pointer border-b border-gray-200 ">
@@ -17,7 +17,7 @@ export default function Post({ post}) {
         </div>
 
         {/*dot icon*/}
-        <DotsCircleHorizontalIcon className="h-10 hoverEffect w-10 hover:bg-sky-100 hover:text-sky-500 p-2"/>
+        <DotsHorizontalIcon className="h-10 hoverEffect w-10 hover:bg-sky-100 hover:text-sky-500 p-2.5"/>
     </div>
 
     {/*post text*/}
